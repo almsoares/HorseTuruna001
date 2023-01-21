@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="console.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="110" Y="23"/>
+        <UsageCount Value="36"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\Base.Route.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4"/>
+        <CursorPos Y="27"/>
+        <UsageCount Value="36"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\DBConexao.Contrato.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="3"/>
+        <UsageCount Value="34"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\DBEnv.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="33" Y="16"/>
+        <UsageCount Value="34"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\DBConexao.Zeos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="122"/>
+        <CursorPos X="40" Y="131"/>
+        <UsageCount Value="34"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\TipoContato.Route.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="14" Y="18"/>
+        <UsageCount Value="33"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\TipoContato.Service.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="214"/>
+        <CursorPos X="43" Y="225"/>
+        <UsageCount Value="33"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\TipoEndereco.Route.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\TipoEndereco.Service.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\Pessoa.Route.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="74" Y="23"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\Pessoa.Foto.Service.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="47" Y="46"/>
+        <UsageCount Value="23"/>
+        <Bookmarks Count="1">
+          <Item0 X="55" Y="108" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="29"/>
+        <CursorPos Y="47"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\Pessoa.Contato.Service.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\Pessoa.Endereco.Service.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\u_Tools.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="14"/>
+        <CursorPos Y="29"/>
+        <UsageCount Value="23"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\Json.Result.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="46"/>
+        <CursorPos X="36" Y="28"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\Componentes\j4dl\src\j4dl.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="407"/>
+        <CursorPos X="3" Y="440"/>
+        <UsageCount Value="16"/>
+        <Bookmarks Count="2">
+          <Item0 Y="389" ID="2"/>
+          <Item1 X="21" Y="1414" ID="1"/>
+        </Bookmarks>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus\components\lazutils\lazutf8.pas"/>
+        <UnitName Value="LazUTF8"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos X="10" Y="17"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus\fpc\3.2.2\source\rtl\objpas\sysutils\sysinth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="82"/>
+        <CursorPos X="3" Y="57"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\Componentes\horse\horse\src\Horse.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="23" Y="4"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\Componentes\dc4dl\src\dc4dl.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="351"/>
+        <CursorPos X="3" Y="374"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus\fpc\3.2.2\source\packages\fcl-base\src\base64.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="420"/>
+        <CursorPos X="3" Y="428"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\Componentes\horse\horse\src\Horse.Core.RouterTree.NextCaller.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="68"/>
+        <CursorPos Y="94"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="..\..\common\Service.Contrato.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8"/>
+        <CursorPos X="19" Y="36"/>
+        <UsageCount Value="10"/>
+      </Unit>
+      <Unit>
+        <Filename Value="D:\lazarus\fpc\3.2.2\source\rtl\inc\objpash.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="286"/>
+        <CursorPos X="8" Y="299"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="314" TopLine="288"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="272" TopLine="256"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="274" TopLine="256"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="288" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="290" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="292" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="294" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="297" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="288" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="290" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="291" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="288" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="290" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="292" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="293" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="288" TopLine="272"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="301" TopLine="275"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Foto.Service.pas"/>
+        <Caret Line="24" Column="14" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Foto.Service.pas"/>
+        <Caret Line="45" Column="3" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Foto.Service.pas"/>
+        <Caret Line="24" Column="17" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Foto.Service.pas"/>
+        <Caret Line="44" Column="10" TopLine="28"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="299" Column="42" TopLine="286"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="27" Column="14" TopLine="14"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Foto.Service.pas"/>
+        <Caret Line="28" Column="19" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Foto.Service.pas"/>
+        <Caret Line="138" Column="34" TopLine="115"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Foto.Service.pas"/>
+        <Caret Line="24" Column="14" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="50" Column="15" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="211" Column="34" TopLine="198"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Service.pas"/>
+        <Caret Line="27" Column="14" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="..\..\common\Pessoa.Foto.Service.pas"/>
+        <Caret Line="46" Column="47" TopLine="10"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <Watches>
+      <Item>
+        <Expression Value="List.count"/>
+      </Item>
+      <Item>
+        <Expression Value="Char(ASource[I])"/>
+      </Item>
+      <Item>
+        <Expression Value="lChar"/>
+      </Item>
+    </Watches>
+  </Debugging>
+</CONFIG>

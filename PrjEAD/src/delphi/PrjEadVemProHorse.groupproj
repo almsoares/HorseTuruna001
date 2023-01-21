@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{C75CECCD-B4A9-48B2-80D5-9A17D44C53F6}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="console\console.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="cliente\src\AppCrud.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\..\WkTeste\PrjWKTecno.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\..\AmdMVC\AmdMVCPrj.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\..\AmdMVC\servidor\delphi\amd_console.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="console">
+        <MSBuild Projects="console\console.dproj"/>
+    </Target>
+    <Target Name="console:Clean">
+        <MSBuild Projects="console\console.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="console:Make">
+        <MSBuild Projects="console\console.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AppCrud">
+        <MSBuild Projects="cliente\src\AppCrud.dproj"/>
+    </Target>
+    <Target Name="AppCrud:Clean">
+        <MSBuild Projects="cliente\src\AppCrud.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AppCrud:Make">
+        <MSBuild Projects="cliente\src\AppCrud.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="PrjWKTecno">
+        <MSBuild Projects="..\..\..\..\WkTeste\PrjWKTecno.dproj"/>
+    </Target>
+    <Target Name="PrjWKTecno:Clean">
+        <MSBuild Projects="..\..\..\..\WkTeste\PrjWKTecno.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="PrjWKTecno:Make">
+        <MSBuild Projects="..\..\..\..\WkTeste\PrjWKTecno.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="AmdMVCPrj">
+        <MSBuild Projects="..\..\..\..\AmdMVC\AmdMVCPrj.dproj"/>
+    </Target>
+    <Target Name="AmdMVCPrj:Clean">
+        <MSBuild Projects="..\..\..\..\AmdMVC\AmdMVCPrj.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AmdMVCPrj:Make">
+        <MSBuild Projects="..\..\..\..\AmdMVC\AmdMVCPrj.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="amd_console">
+        <MSBuild Projects="..\..\..\..\AmdMVC\servidor\delphi\amd_console.dproj"/>
+    </Target>
+    <Target Name="amd_console:Clean">
+        <MSBuild Projects="..\..\..\..\AmdMVC\servidor\delphi\amd_console.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="amd_console:Make">
+        <MSBuild Projects="..\..\..\..\AmdMVC\servidor\delphi\amd_console.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="console;AppCrud;PrjWKTecno;AmdMVCPrj;amd_console"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="console:Clean;AppCrud:Clean;PrjWKTecno:Clean;AmdMVCPrj:Clean;amd_console:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="console:Make;AppCrud:Make;PrjWKTecno:Make;AmdMVCPrj:Make;amd_console:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

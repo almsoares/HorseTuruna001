@@ -1,0 +1,66 @@
+create table pessoa (
+	id 						varchar(36) not null, 
+    tipo_pessoa     		char(1) not null check (tipo_pessoa in ('F', 'J')),
+	cpf_cnpj                varchar(14) not null,
+	nome_razao              varchar(100) not null,
+	apelido_fantasia        varchar(100),
+    ativo					smallint default 1 check (ativo in (0, 1)) not null,
+	deleted                 smallint default 0 check (deleted in (0, 1)) not null,
+	created_at              timestamp default current_timestamp not null, 
+	updated_at              timestamp default current_timestamp not null,
+	constraint pk_pessoa primary key (id),
+	constraint uk_cpf_cnpj unique (cpf_cnpj)
+);
+
+---------------------------------------------------------------------------
+create table pessoa_foto (
+    id_pessoa				varchar(36) not null,
+    url_foto                varchar(150), 
+    blob_foto          		blob sub_type 0 segment size 80,
+    constraint pk_pessoa_foto primary key (id_pessoa),
+	constraint fk_foto_pessoa foreign key (id_pessoa) references pessoa (id) on delete cascade
+);
+
+---------------------------------------------------------------------------
+create table tipo_contato (
+	id 						varchar(36) not null,
+	descricao               varchar(35) not null,
+	deleted                 smallint default 0 check (deleted in (0, 1)) not null,
+	constraint pk_tipo_contato primary key (id)
+);	
+
+---------------------------------------------------------------------------
+create table tipo_endereco (
+	id 						varchar(36) not null,
+	descricao               varchar(35) not null,
+	deleted                 smallint default 0 check (deleted in (0, 1)) not null,
+	constraint pk_tipo_endereco primary key (id)
+);	
+
+---------------------------------------------------------------------------
+create table pessoa_contato (
+	id 						varchar(36) not null,
+	id_pessoa				varchar(36) not null,
+	id_tipo                 varchar(36) not null,
+	contato                 varchar(150) not null,
+	constraint pk_pessoa_contato primary key (id),
+	constraint fk_contato_pessoa foreign key (id_pessoa) references pessoa (id) on delete cascade,
+	constraint fk_tipo_contato foreign key (id_tipo) references tipo_contato (id)
+);
+
+---------------------------------------------------------------------------
+create table pessoa_endereco (
+	id 						varchar(36) not null,
+	id_pessoa				varchar(36) not null,
+	id_tipo                 varchar(36) not null,
+	logradouro              varchar(100), 
+	numero                  varchar(10),
+	complemento             varchar(35),
+	bairro                  varchar(50),
+	cep                     char(8),
+	municipio               varchar(50),
+	uf                      char(2),  
+	constraint pk_pessoa_endereco primary key (id),
+	constraint fk_endereco_pessoa foreign key (id_pessoa) references pessoa (id) on delete cascade,
+	constraint fk_tipo_endereco foreign key (id_tipo) references tipo_endereco (id)
+);
